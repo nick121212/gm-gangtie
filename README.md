@@ -28,4 +28,4 @@
 2. npm install
 
 # 启动命令
-foever start . >gmlog.log
+foever -l /log/access.log -e /log/error.log -o /log/out.log start . 
